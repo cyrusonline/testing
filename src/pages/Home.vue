@@ -27,6 +27,7 @@
   </f7-card-footer>
 </f7-card>
     </f7-block>
+
   </f7-page>
 </template>
 <script>
