@@ -22,8 +22,8 @@
     <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
   </f7-card-content>
   <f7-card-footer>
-    <f7-link>Like</f7-link>
-    <f7-link href="/about/">Read more</f7-link>
+    <f7-link>{{vuextitle}}</f7-link>
+    <f7-link href="/about/" @click="goDetail(lecture.data().name)">Read more</f7-link>
   </f7-card-footer>
 </f7-card>
     </f7-block>
@@ -43,7 +43,15 @@ export default {
       password:''
     };
   },
+  computed:{
+    vuextitle(){
+      return this.$store.state.vuextitle
+    }
+  },
   methods:{
+     goDetail(data){
+       this.$store.state.vuextitle = data
+    },
     getLectures(){
       let query = firebase.firestore().collection('lectures').orderBy("name","desc")
       query.get()

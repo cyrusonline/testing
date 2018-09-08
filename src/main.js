@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 // Import Vue
 import Vue from 'vue';
-
+import Vuex from 'vuex'
 // Import F7
 import Framework7 from 'framework7/dist/framework7.esm.bundle.js';
 
@@ -20,17 +20,18 @@ import Routes from './routes.js';
 
 // Import App Component
 import App from './app';
-
+import {store} from './store/store';
 // Set up some useful globals
 window.isMaterial = !Framework7.device.ios;
 window.isiOS = Framework7.device.ios;
 
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue, Framework7);
-
+Vue.use(Vuex)
 // Init App
 const baseApp = new Vue({
   el: '#app',
+  store,
   template: '<app/>',
   // Init Framework7 by passing parameters here
   framework7: {

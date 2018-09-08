@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.phonegap.myapp"
+    },
+    "cordova-plugin-inapppurchase": {
+      "PACKAGE_NAME": "com.phonegap.yrmentor"
     }
   },
   "dependent_plugins": {}

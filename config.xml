@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.myapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ckmboile.selling" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>My App</name>
     <description>        A basic Vue.js + Framework7 template for PhoneGap.    </description>
     <author email="tommy@devgeeks.org" href="http://phonegap.com">        Adobe PhoneGap Team    </author>
@@ -88,6 +88,7 @@
     <preference name="FadeSplashScreenDuration" value="300" />
     <preference name="phonegap-version" value="cli-6.1.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-inapppurchase" spec="^1.2.0" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.1.1" />
 </widget>

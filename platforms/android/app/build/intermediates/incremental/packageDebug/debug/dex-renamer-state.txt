@@ -1,4 +1,4 @@
-#Fri Sep 07 10:03:56 CST 2018
-base.0=C\:\\f7project\\testing\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sat Sep 08 15:37:47 CST 2018
+base.0=C\:\\vue projects\\yrmentor\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\f7project\\testing\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\vue projects\\yrmentor\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
